@@ -22,13 +22,13 @@ The conversion of a set of outputs to a single extendedxyz file that merges all 
 the **list_of_outputs.out** are QChem outputs from Molecular Dynamics that contain for each time step:
 1)  "Total energy in the final basis set": Total energy of the system in Hartree. 
 2)  "Standard Nuclear Orientation": Cartesian coordinates of the system in angstroms.
-3)  "Gradient of SCF Energy": The gradient in hartree per Bohr.
+3)  "Gradient of SCF Energy": The gradient in Hartree per Bohr.
 
 The units are convertedto get the extended xyz file **name_of_merged_file_extended.xyz** in units relevant to work on sGDML _(refsGDML)_
 
 1) Energy: Hartree to eV (factor:  27.211386245988)
 2) Cartesian coordinates: no modification done
-3) Gradient: Hartree per Bohr (factor: 51.422086190832). We need the Forces, thus we additionally multiply by -1.
+3) Gradient: Hartree Bohr Angstrom to eV Angstrom (factor: 51.422086190832). We need the Forces, thus we additionally multiply by -1.
 
 The resulting extended xyz file format is as follows:  <br/>
 
