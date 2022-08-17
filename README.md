@@ -1,4 +1,4 @@
-**"Supervised Machine Learning to predict the Energy and Forces of Small Organic Molecular Systems"**
+**"Supervised Machine Learning to predict Energy and Forces of Small Organic Molecular Systems"**
 
 
 **OBJECTIVE**
