@@ -1,0 +1,1283 @@
+                  Welcome to Q-Chem
+     A Quantum Leap Into The Future Of Chemistry
+
+
+ Q-Chem 6.0 (devel), Q-Chem, Inc., Pleasanton, CA (2022)
+
+ E. Epifanovsky,  A. T. B. Gilbert,  Xintian Feng,  Joonho Lee,  Yuezhi Mao,  
+ N. Mardirossian,  P. Pokhilko,  A. White,  M. Wormit,  M. P. Coons,  
+ A. L. Dempwolff,  Zhengting Gan,  D. Hait,  P. R. Horn,  L. D. Jacobson,  
+ I. Kaliman,  J. Kussmann,  A. W. Lange,  Ka Un Lao,  D. S. Levine,  Jie Liu,  
+ S. C. McKenzie,  A. F. Morrison,  K. Nanda,  F. Plasser,  D. R. Rehn,  
+ M. L. Vidal,  Zhi-Qiang You,  Ying Zhu,  B. Alam,  B. Albrecht,  
+ A. Aldossary,  E. Alguire,  J. H. Andersen,  V. Athavale,  D. Barton,  
+ K. Begam,  A. Behn,  N. Bellonzi,  Y. A. Bernard,  E. J. Berquist,  
+ H. Burton,  A. Carreras,  K. Carter-Fenk,  Romit Chakraborty,  
+ Chandrima Chakravarty,  Junhan Chen,  A. D. Chien,  K. D. Closser,  
+ V. Cofer-Shabica,  L. Cunha,  S. Dasgupta,  Jia Deng,  M. de Wergifosse,  
+ M. Diedenhofen,  Hainam Do,  S. Ehlert,  Po-Tung Fang,  S. Fatehi,  
+ Qingguo Feng,  T. Friedhoff,  B. Ganoe,  J. Gayvert,  Qinghui Ge,  
+ G. Gidofalvi,  M. Goldey,  J. Gomes,  C. Gonzalez-Espinoza,  S. Gulania,  
+ A. Gunina,  J. A. Gyamfi,  M. W. D. Hanson-Heine,  P. H. P. Harbach,  
+ A. W. Hauser,  M. F. Herbst,  M. Hernandez Vera,  M. Hodecker,  
+ Z. C. Holden,  S. Houck,  Xunkun Huang,  Kerwin Hui,  B. C. Huynh,  
+ K. Ikeda,  M. Ivanov,  Hyunjun Ji,  Zuxin Jin,  Hanjie Jiang,  B. Kaduk,  
+ S. Kaehler,  R. Kang,  K. Khistyaev,  Jaehoon Kim,  Yongbin Kim,  
+ P. Klunzinger,  Z. Koczor-Benda,  Joong Hoon Koh,  D. Kosenkov,  
+ Saikiran Kotaru,  L. Koulias,  T. Kowalczyk,  C. M. Krauter,  K. Kue,  
+ A. Kunitsa,  T. Kus,  A. Landau,  K. V. Lawler,  D. Lefrancois,  S. Lehtola,  
+ Rain Li,  Shaozhi Li,  Yi-Pei Li,  Jiashu Liang,  M. Liebenthal,  
+ Hung-Hsuan Lin,  You-Sheng Lin,  Fenglai Liu,  Kuan-Yu Liu,  
+ M. Loipersberger,  A. Luenser,  C. Malbon,  A. Manjanath,  P. Manohar,  
+ E. Mansoor,  S. F. Manzer,  Shan-Ping Mao,  A. V. Marenich,  T. Markovich,  
+ S. Mason,  F. Matz,  S. A. Maurer,  P. F. McLaughlin,  M. F. S. J. Menger,  
+ J.-M. Mewes,  S. A. Mewes,  P. Morgante,  Mohammad Mostafanejad,  
+ J. W. Mullinax,  K. J. Oosterbaan,  G. Paran,  V. Parravicini,  
+ Alexander C. Paul,  Suranjan K. Paul,  F. Pavosevic,  Zheng Pei,  S. Prager,  
+ E. I. Proynov,  E. Ramos,  B. Rana,  A. E. Rask,  A. Rettig,  R. M. Richard,  
+ F. Rob,  E. Rossomme,  T. Scheele,  M. Scheurer,  M. Schneider,  
+ P. E. Schneider,  N. Sergueev,  S. M. Sharada,  Hengyuan Shen,  
+ W. Skomorowski,  D. W. Small,  C. J. Stein,  Yingli Su,  Yu-Chuan Su,  
+ E. J. Sundstrom,  Zhen Tao,  J. Thirman,  Hung-Yi Tsai,  T. Tsuchimochi,  
+ N. M. Tubman,  C. Utku,  S. P. Veccham,  O. Vydrov,  J. Wenzel,  
+ Jonathan Wong,  J. Witte,  A. Yamada,  Chou-Hsun Yang,  Kun Yao,  
+ S. Yeganeh,  S. R. Yost,  A. Zech,  F. Zeller,  Igor Ying Zhang,  
+ Xing Zhang,  Yu Zhang,  D. Zuev,  A. Aspuru-Guzik,  A. T. Bell,  
+ N. A. Besley,  K. B. Bravaya,  B. R. Brooks,  D. Casanova,  Jeng-Da Chai,  
+ Hsing-Ta Chen,  S. Coriani,  C. J. Cramer,  A. E. DePrince, III,  
+ R. A. DiStasio Jr.,  A. Dreuw,  B. D. Dunietz,  T. R. Furlani,  
+ W. A. Goddard III,  S. Grimme,  S. Hammes-Schiffer,  T. Head-Gordon,  
+ W. J. Hehre,  Chao-Ping Hsu,  T.-C. Jagau,  Yousung Jung,  A. Klamt,  
+ Jing Kong,  D. S. Lambrecht,  Xiangyuan Li,  WanZhen Liang,  N. J. Mayhall,  
+ C. W. McCurdy,  J. B. Neaton,  T. Neudecker,  C. Ochsenfeld,  
+ J. A. Parkhill,  R. Peverati,  V. A. Rassolov,  Haisheng Ren,  Yihan Shao,  
+ L. V. Slipchenko,  R. P. Steele,  J. E. Subotnik,  A. J. W. Thom,  
+ A. Tkatchenko,  D. G. Truhlar,  T. Van Voorhis,  Fan Wang,  
+ T. A. Wesolowski,  K. B. Whaley,  H. L. Woodcock III,  P. M. Zimmerman,  
+ S. Faraji,  P. M. W. Gill,  M. Head-Gordon,  J. M. Herbert,  A. I. Krylov
+
+ Contributors to earlier versions of Q-Chem not listed above: 
+ R. D. Adamson,  B. Austin,  R. Baer,  J. Baker,  G. J. O. Beran,  
+ K. Brandhorst,  S. T. Brown,  E. F. C. Byrd,  Arup K. Chakraborty,  
+ G. K. L. Chan,  Chun-Min Chang,  Yunqing Chen,  C.-L. Cheng,  
+ Siu Hung Chien,  D. M. Chipman,  D. L. Crittenden,  H. Dachsel,  
+ R. J. Doerksen,  A. D. Dutoi,  R. G. Edgar,  J. Fosso-Tande,  
+ L. Fusti-Molnar,  D. Ghosh,  A. Ghysels,  A. Golubeva-Zadorozhnaya,  
+ J. Gonthier,  M. S. Gordon,  S. R. Gwaltney,  G. Hawkins,  J. E. Herr,  
+ A. Heyden,  S. Hirata,  E. G. Hohenstein,  G. Kedziora,  F. J. Keil,  
+ C. Kelley,  Jihan Kim,  R. A. King,  R. Z. Khaliullin,  P. P. Korambath,  
+ W. Kurlancheek,  A. Laurent,  A. M. Lee,  M. S. Lee,  S. V. Levchenko,  
+ Ching Yeh Lin,  D. Liotard,  E. Livshits,  R. C. Lochan,  I. Lotan,  
+ L. A. Martinez-Martinez,  P. E. Maslen,  N. Nair,  D. P. O'Neill,  
+ D. Neuhauser,  E. Neuscamman,  C. M. Oana,  R. Olivares-Amaya,  R. Olson,  
+ T. M. Perrine,  B. Peters,  P. A. Pieniazek,  A. Prociuk,  Y. M. Rhee,  
+ J. Ritchie,  M. A. Rohrdanz,  E. Rosta,  N. J. Russ,  H. F. Schaefer III,  
+ M. W. Schmidt,  N. E. Schultz,  S. Sharma,  N. Shenvi,  C. D. Sherrill,  
+ A. C. Simmonett,  A. Sodt,  T. Stein,  D. Stuck,  K. S. Thanthiriwatte,  
+ V. Vanovschi,  L. Vogt,  Tao Wang,  A. Warshel,  M. A. Watson,  
+ C. F. Williams,  Q. Wu,  X. Xu,  Jun Yang,  W. Zhang,  Yan Zhao
+
+   Please cite Q-Chem as follows:
+  "Software for the frontiers of quantum chemistry:
+   An overview of developments in the Q-Chem 5 package"
+   J. Chem. Phys. 155, 084801 (2021)
+   https://doi.org/10.1063/5.0055522 (open access)
+
+ Q-Chem 6.0.2 for Intel X86 EM64T Linux
+
+ Parts of Q-Chem use Armadillo 9.900.5 (Nocturnal Misbehaviour).
+ http://arma.sourceforge.net/
+
+ Q-Chem begins on Wed Jan 11 17:03:14 2023  
+
+ Host: spike
+0
+
+     Scratch files written to /home/SCR/qcscr/qchem19217//
+ Processing $rem in /home/SCR/Qchem/config/preferences:
+ Processing $rem in /usr/people/tamars/fanirm/.qchemrc:
+ Symmetry disabled for AIMD jobs.
+
+ Checking the input file for inconsistencies... 	...done.
+
+--------------------------------------------------------------
+User input:
+--------------------------------------------------------------
+$molecule
+0 1
+ O    -3.383198     0.944088     0.000000
+ H    -2.418306     1.001015     0.000000
+ H    -3.651632     1.872647     0.000000
+$end
+
+$rem
+jobtype              aimd
+aimd_method          bomd
+TIME_STEP            50
+aimd_steps           10
+AIMD_INIT_VELOC      thermal
+AIMD_TEMP            300
+scf_algorithm        DIIS_GDM
+thresh_diis_switch   9
+thresh               11
+max_diis_cycles      150
+method               WB97
+basis                6-31g*
+max_scf_cycles       700
+symmetry             false
+sym_ignore           true
+max_sub_file_num     512
+scf_print            0
+scf_final_print      1
+AIMD_GRAD 
+$end
+--------------------------------------------------------------
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      O      -3.3831980000     0.9440880000     0.0000000000
+    2      H      -2.4183060000     1.0010150000     0.0000000000
+    3      H      -3.6516320000     1.8726470000     0.0000000000
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =           9.11001452 hartrees
+ There are        5 alpha and        5 beta electrons
+ Requested basis set is 6-31G(d)
+ There are 8 shells and 19 basis functions
+
+ Total QAlloc Memory Limit   2000 MB
+ Mega-Array Size       188 MB
+ MEM_STATIC part       192 MB
+
+
+                       Distance Matrix (Angstroms)
+             O (  1)   H (  2)
+   H (  2)  0.966570
+   H (  3)  0.966581  1.510243
+
+ A cutoff of  1.0D-11 yielded     36 shell pairs
+ There are       217 function pairs
+ Smallest overlap matrix eigenvalue = 2.26E-02
+
+ Scale SEOQF with 1.000000e-01/1.000000e-01/1.000000e+00
+
+ Standard Electronic Orientation quadrupole field applied
+ Nucleus-field energy     =     0.0000000048 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 10.000000 electrons
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:  wB97 + LR-HF      Correlation:  wB97
+ Using SG-2 standard quadrature grid
+ A restricted SCF calculation will be
+ performed using DIIS, GDM
+ SCF converges when RMS gradient is below 1.0e-08
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1     -76.3029020209      1.61e-01  
+    2     -76.3382445506      3.88e-02  
+    3     -76.3602061289      3.22e-02  
+    4     -76.3914259571      1.57e-03  
+    5     -76.3915149938      3.35e-04  
+    6     -76.3915209620      3.79e-05  
+    7     -76.3915210778      6.03e-06  
+    8     -76.3915210832      1.24e-06  
+    9     -76.3915210835      1.16e-07  
+   10     -76.3915210835      9.38e-09  
+   11     -76.3915210835      7.18e-10  Done DIIS. Switching to GDM
+ ---------------------------------------
+  Cycle       Energy        RMS Gradient
+ ---------------------------------------
+    1     -76.3915210835      3.39e-09  Convergence criterion met
+ ---------------------------------------
+ DFT Correlation    Energy =  -0.32852376662783
+ DFT Exchange       Energy =  -6.95096588272235
+ HF Exchange        Energy =  -2.04156001343493
+ Kinetic            Energy =   0.00000000000000
+ Nuclear Attraction Energy =   0.00000000000000
+ One-Electron       Energy = -122.91802643216624
+ Total Coulomb      Energy =  46.73754048810137
+ Final Alpha MO Eigenvalues
+            1           2           3           4           5           6
+    1 -19.0057940  -1.1308461  -0.6369613  -0.4939430  -0.4110123   0.1798286
+            7           8           9          10          11          12
+    1   0.2686076   0.8937747   0.9965562   1.0185253   1.0218009   1.1949423
+           13          14          15          16          17          18
+    1   1.3170683   1.8471757   1.8689726   1.9018085   2.4066890   2.7003190
+           19
+    1   3.6705603
+ SCF time:   CPU 1.05s  wall 1.00s 
+ SCF   energy in the final basis set =      -76.3915210835
+ Total energy in the final basis set =      -76.3915210835
+
+ --------------------------------------------------------------
+
+                    Orbital Energies (a.u.)
+ --------------------------------------------------------------
+
+ Alpha MOs
+ -- Occupied --
+-19.0058  -1.1308  -0.6370  -0.4939  -0.4110
+ -- Virtual --
+  0.1798   0.2686   0.8938   0.9966   1.0185   1.0218   1.1949   1.3171
+  1.8472   1.8690   1.9018   2.4067   2.7003   3.6706
+ --------------------------------------------------------------
+
+          Ground-State Mulliken Net Atomic Charges
+
+     Atom                 Charge (a.u.)
+  ----------------------------------------
+      1 O                    -0.779531
+      2 H                     0.389758
+      3 H                     0.389773
+  ----------------------------------------
+  Sum of atomic charges =     0.000000
+
+ -----------------------------------------------------------------
+                    Cartesian Multipole Moments
+ -----------------------------------------------------------------
+    Charge (ESU x 10^10)
+                -0.0000
+    Dipole Moment (Debye)
+         X       1.2447      Y       1.7612      Z       0.0000
+       Tot       2.1566
+    Quadrupole Moments (Debye-Ang)
+        XX     -13.1022     XY      -5.3236     YY      -1.7375
+        XZ      -0.0000     YZ       0.0000     ZZ      -7.2273
+    Octopole Moments (Debye-Ang^2)
+       XXX      90.9748    XXY      11.2490    XYY       5.2544
+       YYY      -9.4074    XXZ       0.0000    XYZ      -0.0000
+       YYZ       0.0000    XZZ      24.1536    YZZ      -7.2444
+       ZZZ       0.0000
+    Hexadecapole Moments (Debye-Ang^3)
+      XXXX    -529.3524   XXXY       1.3331   XXYY     -22.3914
+      XYYY      29.0973   YYYY     -25.5996   XXXZ      -0.0000
+      XXYZ       0.0000   XYYZ      -0.0000   YYYZ       0.0000
+      XXZZ     -82.7667   XYZZ      24.2780   YYZZ      -9.2590
+      XZZZ      -0.0000   YZZZ       0.0000   ZZZZ      -5.2418
+ -----------------------------------------------------------------
+ Mayer SCF Bond Order, atomic valence on the diagonal:
+
+            1           2           3
+    1   1.6393434   0.8196768   0.8196666
+    2   0.8196768   0.8140067  -0.0056701
+    3   0.8196666  -0.0056701   0.8139965
+
+
+ Importing sGDML predicted Forces of the SCF energy and converting them to gradient 
+ Gradient of SCF Energy
+            1           2           3
+    1  -0.0020820   0.0003623   0.0017196
+    2  -0.0030395   0.0019942   0.0010453
+    3   0.0000000  -0.0000000  -0.0000000
+ Max gradient component =       3.039E-03
+ RMS gradient           =       1.554E-03
+ Gradient time:  CPU 0.19 s  wall 0.19 s
+=======================================================
+            AB INITIO MOLECULAR DYNAMICS
+=======================================================
+ Created directory /home/SCR/qcscr/qchem19217/AIMD
+AIMD will take 10 BOMD steps Velocity Verlet integration
+Time step = 50.00000 a.u. ( = 1.20944 fs)
+Total simulation time requested = 12.094 fs
+Integral threshold = 10**(-11)
+SCF convergence threshold = 10**(-8)
+Generating viewable xyz trajectory,
+ file (in Angstroms) at AIMD/View.xyz
+Choosing nuclear velocities from Maxwell-Boltzmann
+Velocities sampled from Maxwell-Boltzmann at T = 300.0 K
+sqrt(kT/m) and (vx,vy,vz) for each atom:
+  1   1.8051e-04   3.08e-05  -2.34e-05   3.73e-05 
+  2   7.1911e-04  -1.30e-03  -4.00e-04  -1.34e-03 
+  3   7.1911e-04  -7.22e-04  -5.28e-04   5.22e-04 
+T(nuclear) = 0.00437004 a.u.
+v(c.o.m.) = ( -8.5613e-05,  -7.2646e-05,  -1.2707e-05)
+T(c.o.m.) = 2.09602e-04 a.u.
+kT/2 = 0.000475 a.u.
+Tx   = 0.002036 a.u.
+Ty   = 0.000411 a.u.
+Tz   = 0.001924 a.u.
+Mean velocities (a.u.):  -6.6244e-04  -3.1694e-04  -2.6057e-04
+Removing c.o.m. velocity
+T(nuclear) = 0.00250206 a.u.
+v(c.o.m.) = ( -1.3526e-20,   7.6086e-21,   0.0000e+00)
+T(c.o.m.) = 3.95378e-36 a.u.
+kT   = 0.000950 a.u. = 0.60 kcal/mol
+Tx   = 0.000667 a.u. = 0.42 kcal/mol
+Ty   = 0.000010 a.u. = 0.01 kcal/mol
+Tz   = 0.001826 a.u. = 1.15 kcal/mol
+Initial velocities in m/s
+  1      1.3758e+02      8.5418e+00      9.2029e+01 
+  2     -1.7203e+03      7.2347e+01     -2.7688e+03 
+  3     -4.6326e+02     -2.0791e+02      1.3083e+03 
+----------------------------------------------------------------------------
+       Nuclear coordinates (Angst) and velocities (a.u.)
+----------------------------------------------------------------------------
+             x        y        z            v_x         v_y        v_z
+----------------------------------------------------------------------------
+1      O   -3.3832   0.9441   0.0000     6.2889e-05   3.9045e-06   4.2067e-05
+2      H   -2.4183   1.0010   0.0000    -7.8633e-04   3.3070e-05  -1.2656e-03
+3      H   -3.6516   1.8726   0.0000    -2.1176e-04  -9.5037e-05   5.9801e-04
+----------------------------------------------------------------------------
+Write nuclear velocities every 1 time steps
+
+TIME STEP #1 (t = 0.000 a.u. = 0.00000 fs)
+--------------------------------------
+ Instantaneous Temperature = 175.6 K
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      O      -3.3814867921     0.9442602643     0.0011130366
+    2      H      -2.4392419103     1.0011719839    -0.0334873074
+    3      H      -3.6578540600     1.8697560707     0.0158227016
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =           9.21760878 hartrees
+ There are        5 alpha and        5 beta electrons
+
+                       Distance Matrix (Angstroms)
+             O (  1)   H (  2)
+   H (  2)  0.944596
+   H (  3)  0.965991  1.497293
+
+ Applying Cartesian multipole field
+    Component          Value
+    ---------          -----
+     (2,0,0)        1.00000E-11
+     (0,2,0)        2.00000E-11
+     (0,0,2)       -3.00000E-10
+ Nucleus-field energy     =     0.0000000048 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 10.000000 electrons
+ SCF convergence criterion is 10**(-8)
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:  wB97 + LR-HF      Correlation:  wB97
+ Using SG-2 standard quadrature grid
+ A restricted SCF calculation will be
+ performed using DIIS, GDM
+ SCF converges when RMS gradient is below 1.0e-08
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1     -76.3196226247      1.65e-01  
+    2     -76.3378354719      3.90e-02  
+    3     -76.3601073907      3.21e-02  
+    4     -76.3909941851      1.55e-03  
+    5     -76.3910809334      3.23e-04  
+    6     -76.3910865643      3.62e-05  
+    7     -76.3910866724      5.86e-06  
+    8     -76.3910866776      1.20e-06  
+    9     -76.3910866778      1.32e-07  
+   10     -76.3910866778      2.95e-08  
+   11     -76.3910866778      2.39e-09  
+   12     -76.3910866778      2.25e-10  Done DIIS. Switching to GDM
+ ---------------------------------------
+  Cycle       Energy        RMS Gradient
+ ---------------------------------------
+    1     -76.3910866778      8.88e-10  Convergence criterion met
+ ---------------------------------------
+ DFT Correlation    Energy =  -0.32912871511310
+ DFT Exchange       Energy =  -6.96009795996224
+ HF Exchange        Energy =  -2.04293584747069
+ Kinetic            Energy =   0.00000000000000
+ Nuclear Attraction Energy =   0.00000000000000
+ One-Electron       Energy = -123.10945541870353
+ Total Coulomb      Energy =  46.83292247717322
+ Final Alpha MO Eigenvalues
+            1           2           3           4           5           6
+    1 -19.0036218  -1.1354271  -0.6421469  -0.4940239  -0.4118407   0.1829597
+            7           8           9          10          11          12
+    1   0.2729397   0.8996070   1.0054730   1.0214882   1.0217677   1.1984756
+           13          14          15          16          17          18
+    1   1.3170159   1.8457668   1.8659225   1.9004704   2.4191790   2.7215610
+           19
+    1   3.6769915
+ SCF time:   CPU 1.13s  wall 1.00s 
+ SCF   energy in the final basis set =      -76.3910866778
+ Total energy in the final basis set =      -76.3910866778
+ Importing sGDML predicted Forces of the SCF energy and converting them to gradient 
+ Gradient of SCF Energy
+            1           2           3
+    1   0.0217532  -0.0234079   0.0016547
+    2  -0.0015612   0.0005339   0.0010272
+    3  -0.0008125   0.0008697  -0.0000572
+ Max gradient component =       2.341E-02
+ RMS gradient           =       1.069E-02
+ Gradient time:  CPU 0.18 s  wall 0.18 s
+ Time for this dynamics step: 1.3 s (CPU) 1.3 s (wall)
+
+TIME STEP #2 (t = 50.000 a.u. = 1.20944 fs)
+--------------------------------------
+ Instantaneous Temperature = 152.1 K
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      O      -3.3807625964     0.9445033633     0.0022629404
+    2      H      -2.4433217451     1.0009444779    -0.0676008980
+    3      H      -3.6652676760     1.8661254396     0.0316865790
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =           9.23503878 hartrees
+ There are        5 alpha and        5 beta electrons
+
+                       Distance Matrix (Angstroms)
+             O (  1)   H (  2)
+   H (  2)  0.941733
+   H (  3)  0.964985  1.500516
+
+ Applying Cartesian multipole field
+    Component          Value
+    ---------          -----
+     (2,0,0)        1.00000E-11
+     (0,2,0)        2.00000E-11
+     (0,0,2)       -3.00000E-10
+ Nucleus-field energy     =     0.0000000048 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 10.000000 electrons
+ SCF convergence criterion is 10**(-8)
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:  wB97 + LR-HF      Correlation:  wB97
+ Using SG-2 standard quadrature grid
+ A restricted SCF calculation will be
+ performed using DIIS, GDM
+ SCF converges when RMS gradient is below 1.0e-08
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1     -76.3219918700      1.65e-01  
+    2     -76.3378077410      3.90e-02  
+    3     -76.3601257561      3.21e-02  
+    4     -76.3908879261      1.54e-03  
+    5     -76.3909740629      3.21e-04  
+    6     -76.3909796454      3.64e-05  
+    7     -76.3909797576      6.00e-06  
+    8     -76.3909797631      1.21e-06  
+    9     -76.3909797633      1.33e-07  
+   10     -76.3909797633      2.98e-08  
+   11     -76.3909797633      2.39e-09  
+   12     -76.3909797633      2.27e-10  Done DIIS. Switching to GDM
+ ---------------------------------------
+  Cycle       Energy        RMS Gradient
+ ---------------------------------------
+    1     -76.3909797634      9.28e-10  Convergence criterion met
+ ---------------------------------------
+ DFT Correlation    Energy =  -0.32923091459559
+ DFT Exchange       Energy =  -6.96166785083502
+ HF Exchange        Energy =  -2.04320598208741
+ Kinetic            Energy =   0.00000000000000
+ Nuclear Attraction Energy =   0.00000000000000
+ One-Electron       Energy = -123.14223602393341
+ Total Coulomb      Energy =  46.85032222754459
+ Final Alpha MO Eigenvalues
+            1           2           3           4           5           6
+    1 -19.0029861  -1.1357473  -0.6439833  -0.4929597  -0.4118205   0.1835975
+            7           8           9          10          11          12
+    1   0.2738020   0.9026537   1.0060919   1.0209118   1.0218765   1.1995322
+           13          14          15          16          17          18
+    1   1.3151104   1.8471885   1.8649493   1.9008957   2.4213465   2.7261403
+           19
+    1   3.6790764
+ SCF time:   CPU 1.13s  wall 2.00s 
+ SCF   energy in the final basis set =      -76.3909797634
+ Total energy in the final basis set =      -76.3909797634
+ Importing sGDML predicted Forces of the SCF energy and converting them to gradient 
+ Gradient of SCF Energy
+            1           2           3
+    1   0.0254220  -0.0263790   0.0009571
+    2   0.0004353  -0.0005807   0.0001454
+    3  -0.0018986   0.0019696  -0.0000710
+ Max gradient component =       2.638E-02
+ RMS gradient           =       1.225E-02
+ Gradient time:  CPU 0.19 s  wall 0.19 s
+ Time for this dynamics step: 1.3 s (CPU) 1.3 s (wall)
+
+TIME STEP #3 (t = 100.000 a.u. = 2.41888 fs)
+--------------------------------------
+ Instantaneous Temperature = 146.6 K
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      O      -3.3811918764     0.9447267117     0.0034989901
+    2      H      -2.4284059885     1.0011351100    -0.1031328029
+    3      H      -3.6733704824     1.8623901245     0.0476015814
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =           9.14707010 hartrees
+ There are        5 alpha and        5 beta electrons
+
+                       Distance Matrix (Angstroms)
+             O (  1)   H (  2)
+   H (  2)  0.960392
+   H (  3)  0.964064  1.521321
+
+ Applying Cartesian multipole field
+    Component          Value
+    ---------          -----
+     (2,0,0)        1.00000E-11
+     (0,2,0)        2.00000E-11
+     (0,0,2)       -3.00000E-10
+ Nucleus-field energy     =     0.0000000048 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 10.000000 electrons
+ SCF convergence criterion is 10**(-8)
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:  wB97 + LR-HF      Correlation:  wB97
+ Using SG-2 standard quadrature grid
+ A restricted SCF calculation will be
+ performed using DIIS, GDM
+ SCF converges when RMS gradient is below 1.0e-08
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1     -76.3079439197      1.62e-01  
+    2     -76.3385194997      3.89e-02  
+    3     -76.3605720215      3.21e-02  
+    4     -76.3914331762      1.55e-03  
+    5     -76.3915206768      3.28e-04  
+    6     -76.3915265381      3.86e-05  
+    7     -76.3915266684      6.47e-06  
+    8     -76.3915266749      1.24e-06  
+    9     -76.3915266752      1.12e-07  
+   10     -76.3915266752      1.18e-08  
+   11     -76.3915266752      2.05e-09  
+   12     -76.3915266752      1.97e-10  Done DIIS. Switching to GDM
+ ---------------------------------------
+  Cycle       Energy        RMS Gradient
+ ---------------------------------------
+    1     -76.3915266752      9.21e-10  Convergence criterion met
+ ---------------------------------------
+ DFT Correlation    Energy =  -0.32875131681831
+ DFT Exchange       Energy =  -6.95437243264833
+ HF Exchange        Energy =  -2.04219626200285
+ Kinetic            Energy =   0.00000000000000
+ Nuclear Attraction Energy =   0.00000000000000
+ One-Electron       Energy = -122.98980605376239
+ Total Coulomb      Energy =  46.77652928782971
+ Final Alpha MO Eigenvalues
+            1           2           3           4           5           6
+    1 -19.0041908  -1.1311925  -0.6416377  -0.4908122  -0.4108284   0.1813700
+            7           8           9          10          11          12
+    1   0.2706819   0.9021427   0.9959843   1.0175323   1.0221361   1.1975311
+           13          14          15          16          17          18
+    1   1.3112986   1.8514404   1.8665539   1.9031936   2.4119602   2.7106389
+           19
+    1   3.6757802
+ SCF time:   CPU 1.17s  wall 1.00s 
+ SCF   energy in the final basis set =      -76.3915266752
+ Total energy in the final basis set =      -76.3915266752
+ Importing sGDML predicted Forces of the SCF energy and converting them to gradient 
+ Gradient of SCF Energy
+            1           2           3
+    1   0.0052727  -0.0049047  -0.0003680
+    2   0.0022308  -0.0010012  -0.0012297
+    3  -0.0005584   0.0005315   0.0000268
+ Max gradient component =       5.273E-03
+ RMS gradient           =       2.584E-03
+ Gradient time:  CPU 0.18 s  wall 0.18 s
+ Time for this dynamics step: 1.4 s (CPU) 1.4 s (wall)
+
+TIME STEP #4 (t = 150.000 a.u. = 3.62833 fs)
+--------------------------------------
+ Instantaneous Temperature = 176.1 K
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      O      -3.3818603956     0.9448488402     0.0047603743
+    2      H      -2.4099583702     1.0020466860    -0.1390474776
+    3      H      -3.6812082723     1.8595402910     0.0634972768
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =           9.03424632 hartrees
+ There are        5 alpha and        5 beta electrons
+
+                       Distance Matrix (Angstroms)
+             O (  1)   H (  2)
+   H (  2)  0.984147
+   H (  3)  0.964220  1.546737
+
+ Applying Cartesian multipole field
+    Component          Value
+    ---------          -----
+     (2,0,0)        1.00000E-11
+     (0,2,0)        2.00000E-11
+     (0,0,2)       -3.00000E-10
+ Nucleus-field energy     =     0.0000000048 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 10.000000 electrons
+ SCF convergence criterion is 10**(-8)
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:  wB97 + LR-HF      Correlation:  wB97
+ Using SG-2 standard quadrature grid
+ A restricted SCF calculation will be
+ performed using DIIS, GDM
+ SCF converges when RMS gradient is below 1.0e-08
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1     -76.2892527574      1.58e-01  
+    2     -76.3381914934      3.87e-02  
+    3     -76.3599424518      3.22e-02  
+    4     -76.3910797767      1.56e-03  
+    5     -76.3911692872      3.40e-04  
+    6     -76.3911755973      4.18e-05  
+    7     -76.3911757547      7.08e-06  
+    8     -76.3911757626      1.34e-06  
+    9     -76.3911757629      1.42e-07  
+   10     -76.3911757629      3.09e-08  
+   11     -76.3911757629      2.68e-09  
+   12     -76.3911757629      2.39e-10  Done DIIS. Switching to GDM
+ ---------------------------------------
+  Cycle       Energy        RMS Gradient
+ ---------------------------------------
+    1     -76.3911757629      9.33e-10  Convergence criterion met
+ ---------------------------------------
+ DFT Correlation    Energy =  -0.32811341819110
+ DFT Exchange       Energy =  -6.94501431244739
+ HF Exchange        Energy =  -2.04080874417911
+ Kinetic            Energy =   0.00000000000000
+ Nuclear Attraction Energy =   0.00000000000000
+ One-Electron       Energy = -122.79154473698708
+ Total Coulomb      Energy =  46.68005912213459
+ Final Alpha MO Eigenvalues
+            1           2           3           4           5           6
+    1 -19.0058524  -1.1256884  -0.6379896  -0.4884916  -0.4096234   0.1778041
+            7           8           9          10          11          12
+    1   0.2665935   0.8988641   0.9822086   1.0168475   1.0224380   1.1954718
+           13          14          15          16          17          18
+    1   1.3072535   1.8561842   1.8688629   1.9059578   2.3976159   2.6916555
+           19
+    1   3.6710367
+ SCF time:   CPU 1.17s  wall 1.00s 
+ SCF   energy in the final basis set =      -76.3911757629
+ Total energy in the final basis set =      -76.3911757629
+ Importing sGDML predicted Forces of the SCF energy and converting them to gradient 
+ Gradient of SCF Energy
+            1           2           3
+    1  -0.0164023   0.0184428  -0.0020405
+    2   0.0030637  -0.0013340  -0.0017297
+    3   0.0024987  -0.0027767   0.0002780
+ Max gradient component =       1.844E-02
+ RMS gradient           =       8.443E-03
+ Gradient time:  CPU 0.19 s  wall 0.19 s
+ Time for this dynamics step: 1.4 s (CPU) 1.4 s (wall)
+
+TIME STEP #5 (t = 200.000 a.u. = 4.83777 fs)
+--------------------------------------
+ Instantaneous Temperature = 155.6 K
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      O      -3.3817846882     0.9448319603     0.0059083850
+    2      H      -2.4047914425     1.0039188497    -0.1729626389
+    3      H      -3.6875767250     1.8579360225     0.0791927703
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =           8.97725421 hartrees
+ There are        5 alpha and        5 beta electrons
+
+                       Distance Matrix (Angstroms)
+             O (  1)   H (  2)
+   H (  2)  0.994988
+   H (  3)  0.965732  1.561559
+
+ Applying Cartesian multipole field
+    Component          Value
+    ---------          -----
+     (2,0,0)        1.00000E-11
+     (0,2,0)        2.00000E-11
+     (0,0,2)       -3.00000E-10
+ Nucleus-field energy     =     0.0000000047 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 10.000000 electrons
+ SCF convergence criterion is 10**(-8)
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:  wB97 + LR-HF      Correlation:  wB97
+ Using SG-2 standard quadrature grid
+ A restricted SCF calculation will be
+ performed using DIIS, GDM
+ SCF converges when RMS gradient is below 1.0e-08
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1     -76.2795065786      1.56e-01  
+    2     -76.3376528286      3.86e-02  
+    3     -76.3592620287      3.22e-02  
+    4     -76.3905518095      1.56e-03  
+    5     -76.3906423146      3.47e-04  
+    6     -76.3906488941      4.38e-05  
+    7     -76.3906490704      7.47e-06  
+    8     -76.3906490793      1.41e-06  
+    9     -76.3906490796      1.66e-07  
+   10     -76.3906490796      3.68e-08  
+   11     -76.3906490796      2.85e-09  
+   12     -76.3906490796      2.71e-10  Done DIIS. Switching to GDM
+ ---------------------------------------
+  Cycle       Energy        RMS Gradient
+ ---------------------------------------
+    1     -76.3906490796      1.34e-09  Convergence criterion met
+ ---------------------------------------
+ DFT Correlation    Energy =  -0.32778612934668
+ DFT Exchange       Energy =  -6.94032524738047
+ HF Exchange        Energy =  -2.04009903670069
+ Kinetic            Energy =   0.00000000000000
+ Nuclear Attraction Energy =   0.00000000000000
+ One-Electron       Energy = -122.69135347816272
+ Total Coulomb      Energy =  46.63166060156464
+ Final Alpha MO Eigenvalues
+            1           2           3           4           5           6
+    1 -19.0065958  -1.1228347  -0.6363657  -0.4869801  -0.4089637   0.1758241
+            7           8           9          10          11          12
+    1   0.2645839   0.8973271   0.9750515   1.0168500   1.0226368   1.1947927
+           13          14          15          16          17          18
+    1   1.3045990   1.8590696   1.8699157   1.9075624   2.3900285   2.6824936
+           19
+    1   3.6689004
+ SCF time:   CPU 1.17s  wall 1.00s 
+ SCF   energy in the final basis set =      -76.3906490796
+ Total energy in the final basis set =      -76.3906490796
+ Importing sGDML predicted Forces of the SCF energy and converting them to gradient 
+ Gradient of SCF Energy
+            1           2           3
+    1  -0.0242352   0.0278289  -0.0035937
+    2   0.0024478  -0.0018336  -0.0006142
+    3   0.0045267  -0.0051791   0.0006525
+ Max gradient component =       2.783E-02
+ RMS gradient           =       1.261E-02
+ Gradient time:  CPU 0.20 s  wall 0.20 s
+ Time for this dynamics step: 1.4 s (CPU) 1.4 s (wall)
+
+TIME STEP #6 (t = 250.000 a.u. = 6.04721 fs)
+--------------------------------------
+ Instantaneous Temperature = 124.1 K
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      O      -3.3806093533     0.9447040158     0.0068510065
+    2      H      -2.4196641699     1.0071113641    -0.2031482982
+    3      H      -3.6913573176     1.8567740694     0.0944184212
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =           9.01040705 hartrees
+ There are        5 alpha and        5 beta electrons
+
+                       Distance Matrix (Angstroms)
+             O (  1)   H (  2)
+   H (  2)  0.985601
+   H (  3)  0.967525  1.558100
+
+ Applying Cartesian multipole field
+    Component          Value
+    ---------          -----
+     (2,0,0)        1.00000E-11
+     (0,2,0)        2.00000E-11
+     (0,0,2)       -3.00000E-10
+ Nucleus-field energy     =     0.0000000047 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 10.000000 electrons
+ SCF convergence criterion is 10**(-8)
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:  wB97 + LR-HF      Correlation:  wB97
+ Using SG-2 standard quadrature grid
+ A restricted SCF calculation will be
+ performed using DIIS, GDM
+ SCF converges when RMS gradient is below 1.0e-08
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1     -76.2850300098      1.57e-01  
+    2     -76.3381521336      3.87e-02  
+    3     -76.3598358576      3.22e-02  
+    4     -76.3909440161      1.55e-03  
+    5     -76.3910336600      3.42e-04  
+    6     -76.3910400881      4.31e-05  
+    7     -76.3910402611      7.41e-06  
+    8     -76.3910402699      1.36e-06  
+    9     -76.3910402702      1.40e-07  
+   10     -76.3910402702      2.96e-08  
+   11     -76.3910402702      2.72e-09  
+   12     -76.3910402702      2.35e-10  Done DIIS. Switching to GDM
+ ---------------------------------------
+  Cycle       Energy        RMS Gradient
+ ---------------------------------------
+    1     -76.3910402702      9.44e-10  Convergence criterion met
+ ---------------------------------------
+ DFT Correlation    Energy =  -0.32798501181205
+ DFT Exchange       Energy =  -6.94312770169700
+ HF Exchange        Energy =  -2.04057224585515
+ Kinetic            Energy =   0.00000000000000
+ Nuclear Attraction Energy =   0.00000000000000
+ One-Electron       Energy = -122.75180484978401
+ Total Coulomb      Energy =  46.66204248745035
+ Final Alpha MO Eigenvalues
+            1           2           3           4           5           6
+    1 -19.0058596  -1.1240697  -0.6382708  -0.4867881  -0.4091775   0.1771882
+            7           8           9          10          11          12
+    1   0.2659389   0.9008051   0.9768124   1.0168670   1.0226470   1.1956795
+           13          14          15          16          17          18
+    1   1.3042022   1.8590191   1.8688656   1.9072331   2.3956449   2.6879821
+           19
+    1   3.6710942
+ SCF time:   CPU 1.13s  wall 1.00s 
+ SCF   energy in the final basis set =      -76.3910402702
+ Total energy in the final basis set =      -76.3910402702
+ Importing sGDML predicted Forces of the SCF energy and converting them to gradient 
+ Gradient of SCF Energy
+            1           2           3
+    1  -0.0154502   0.0198675  -0.0044172
+    2   0.0011760  -0.0024576   0.0012816
+    3   0.0034446  -0.0044459   0.0010012
+ Max gradient component =       1.987E-02
+ RMS gradient           =       8.785E-03
+ Gradient time:  CPU 0.18 s  wall 0.18 s
+ Time for this dynamics step: 1.3 s (CPU) 1.3 s (wall)
+
+TIME STEP #7 (t = 300.000 a.u. = 7.25665 fs)
+--------------------------------------
+ Instantaneous Temperature = 147.0 K
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      O      -3.3787329932     0.9445227131     0.0076373332
+    2      H      -2.4488434793     1.0120736150    -0.2301324590
+    3      H      -3.6919570498     1.8546892078     0.1089230709
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =           9.11748664 hartrees
+ There are        5 alpha and        5 beta electrons
+
+                       Distance Matrix (Angstroms)
+             O (  1)   H (  2)
+   H (  2)  0.962181
+   H (  3)  0.967869  1.539575
+
+ Applying Cartesian multipole field
+    Component          Value
+    ---------          -----
+     (2,0,0)        1.00000E-11
+     (0,2,0)        2.00000E-11
+     (0,0,2)       -3.00000E-10
+ Nucleus-field energy     =     0.0000000047 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 10.000000 electrons
+ SCF convergence criterion is 10**(-8)
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:  wB97 + LR-HF      Correlation:  wB97
+ Using SG-2 standard quadrature grid
+ A restricted SCF calculation will be
+ performed using DIIS, GDM
+ SCF converges when RMS gradient is below 1.0e-08
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1     -76.3025184989      1.61e-01  
+    2     -76.3386175424      3.88e-02  
+    3     -76.3605792427      3.20e-02  
+    4     -76.3913483898      1.54e-03  
+    5     -76.3914358453      3.29e-04  
+    6     -76.3914418449      4.06e-05  
+    7     -76.3914419979      7.00e-06  
+    8     -76.3914420057      1.27e-06  
+    9     -76.3914420060      1.14e-07  
+   10     -76.3914420060      1.44e-08  
+   11     -76.3914420060      2.34e-09  
+   12     -76.3914420060      2.01e-10  Done DIIS. Switching to GDM
+ ---------------------------------------
+  Cycle       Energy        RMS Gradient
+ ---------------------------------------
+    1     -76.3914420060      9.45e-10  Convergence criterion met
+ ---------------------------------------
+ DFT Correlation    Energy =  -0.32859691461199
+ DFT Exchange       Energy =  -6.95209630151784
+ HF Exchange        Energy =  -2.04195045090537
+ Kinetic            Energy =   0.00000000000000
+ Nuclear Attraction Energy =   0.00000000000000
+ One-Electron       Energy = -122.94216862543610
+ Total Coulomb      Energy =  46.75588364146329
+ Final Alpha MO Eigenvalues
+            1           2           3           4           5           6
+    1 -19.0039654  -1.1288327  -0.6428170  -0.4878162  -0.4101471   0.1807234
+            7           8           9          10          11          12
+    1   0.2700562   0.9063062   0.9883242   1.0168112   1.0224894   1.1981083
+           13          14          15          16          17          18
+    1   1.3060844   1.8563478   1.8661317   1.9053135   2.4096207   2.7071277
+           19
+    1   3.6767443
+ SCF time:   CPU 1.14s  wall 1.00s 
+ SCF   energy in the final basis set =      -76.3914420060
+ Total energy in the final basis set =      -76.3914420060
+ Importing sGDML predicted Forces of the SCF energy and converting them to gradient 
+ Gradient of SCF Energy
+            1           2           3
+    1   0.0062024  -0.0022054  -0.0039971
+    2   0.0010814  -0.0032884   0.0022070
+    3  -0.0015537   0.0004719   0.0010818
+ Max gradient component =       6.202E-03
+ RMS gradient           =       2.981E-03
+ Gradient time:  CPU 0.18 s  wall 0.18 s
+ Time for this dynamics step: 1.3 s (CPU) 1.3 s (wall)
+
+TIME STEP #8 (t = 350.000 a.u. = 8.46610 fs)
+--------------------------------------
+ Instantaneous Temperature = 170.2 K
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      O      -3.3771380568     0.9442923433     0.0084941572
+    2      H      -2.4764346984     1.0194038323    -0.2574564181
+    3      H      -3.6896784968     1.8510151070     0.1226486823
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =           9.22482052 hartrees
+ There are        5 alpha and        5 beta electrons
+
+                       Distance Matrix (Angstroms)
+             O (  1)   H (  2)
+   H (  2)  0.942145
+   H (  3)  0.965846  1.519216
+
+ Applying Cartesian multipole field
+    Component          Value
+    ---------          -----
+     (2,0,0)        1.00000E-11
+     (0,2,0)        2.00000E-11
+     (0,0,2)       -3.00000E-10
+ Nucleus-field energy     =     0.0000000047 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 10.000000 electrons
+ SCF convergence criterion is 10**(-8)
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:  wB97 + LR-HF      Correlation:  wB97
+ Using SG-2 standard quadrature grid
+ A restricted SCF calculation will be
+ performed using DIIS, GDM
+ SCF converges when RMS gradient is below 1.0e-08
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1     -76.3194560754      1.65e-01  
+    2     -76.3380298240      3.90e-02  
+    3     -76.3603037807      3.20e-02  
+    4     -76.3908692262      1.52e-03  
+    5     -76.3909547763      3.19e-04  
+    6     -76.3909604166      3.81e-05  
+    7     -76.3909605500      6.57e-06  
+    8     -76.3909605568      1.24e-06  
+    9     -76.3909605571      1.33e-07  
+   10     -76.3909605571      2.94e-08  
+   11     -76.3909605571      2.44e-09  
+   12     -76.3909605571      2.29e-10  Done DIIS. Switching to GDM
+ ---------------------------------------
+  Cycle       Energy        RMS Gradient
+ ---------------------------------------
+    1     -76.3909605571      9.28e-10  Convergence criterion met
+ ---------------------------------------
+ DFT Correlation    Energy =  -0.32918709374360
+ DFT Exchange       Energy =  -6.96107682606371
+ HF Exchange        Energy =  -2.04324192940266
+ Kinetic            Energy =   0.00000000000000
+ Nuclear Attraction Energy =   0.00000000000000
+ One-Electron       Energy = -123.13024238139585
+ Total Coulomb      Energy =  46.84796715125151
+ Final Alpha MO Eigenvalues
+            1           2           3           4           5           6
+    1 -19.0022283  -1.1339250  -0.6467567  -0.4893673  -0.4112119   0.1837009
+            7           8           9          10          11          12
+    1   0.2740144   0.9092331   1.0019057   1.0174491   1.0222779   1.2007944
+           13          14          15          16          17          18
+    1   1.3089685   1.8528614   1.8636446   1.9031466   2.4214134   2.7271639
+           19
+    1   3.6818797
+ SCF time:   CPU 1.13s  wall 1.00s 
+ SCF   energy in the final basis set =      -76.3909605571
+ Total energy in the final basis set =      -76.3909605571
+ Importing sGDML predicted Forces of the SCF energy and converting them to gradient 
+ Gradient of SCF Energy
+            1           2           3
+    1   0.0262030  -0.0238442  -0.0023588
+    2   0.0031637  -0.0040170   0.0008532
+    3  -0.0076891   0.0069646   0.0007244
+ Max gradient component =       2.620E-02
+ RMS gradient           =       1.245E-02
+ Gradient time:  CPU 0.18 s  wall 0.18 s
+ Time for this dynamics step: 1.3 s (CPU) 1.3 s (wall)
+
+TIME STEP #9 (t = 400.000 a.u. = 9.67554 fs)
+--------------------------------------
+ Instantaneous Temperature = 144.5 K
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      O      -3.3767320342     0.9439184246     0.0096998580
+    2      H      -2.4868556993     1.0296266854    -0.2897956141
+    3      H      -3.6857013352     1.8467265841     0.1358526307
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =           9.23839993 hartrees
+ There are        5 alpha and        5 beta electrons
+
+                       Distance Matrix (Angstroms)
+             O (  1)   H (  2)
+   H (  2)  0.942827
+   H (  3)  0.962517  1.511972
+
+ Applying Cartesian multipole field
+    Component          Value
+    ---------          -----
+     (2,0,0)        1.00000E-11
+     (0,2,0)        2.00000E-11
+     (0,0,2)       -3.00000E-10
+ Nucleus-field energy     =     0.0000000047 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 10.000000 electrons
+ SCF convergence criterion is 10**(-8)
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:  wB97 + LR-HF      Correlation:  wB97
+ Using SG-2 standard quadrature grid
+ A restricted SCF calculation will be
+ performed using DIIS, GDM
+ SCF converges when RMS gradient is below 1.0e-08
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1     -76.3219195049      1.65e-01  
+    2     -76.3380218620      3.90e-02  
+    3     -76.3603341835      3.20e-02  
+    4     -76.3909224021      1.52e-03  
+    5     -76.3910078431      3.18e-04  
+    6     -76.3910134177      3.73e-05  
+    7     -76.3910135427      6.36e-06  
+    8     -76.3910135490      1.22e-06  
+    9     -76.3910135493      1.25e-07  
+   10     -76.3910135493      2.74e-08  
+   11     -76.3910135493      2.38e-09  
+   12     -76.3910135493      2.18e-10  Done DIIS. Switching to GDM
+ ---------------------------------------
+  Cycle       Energy        RMS Gradient
+ ---------------------------------------
+    1     -76.3910135493      8.94e-10  Convergence criterion met
+ ---------------------------------------
+ DFT Correlation    Energy =  -0.32925798875102
+ DFT Exchange       Energy =  -6.96213268204064
+ HF Exchange        Energy =  -2.04336695992250
+ Kinetic            Energy =   0.00000000000000
+ Nuclear Attraction Energy =   0.00000000000000
+ One-Electron       Energy = -123.15255983130150
+ Total Coulomb      Energy =  46.85790398261234
+ Final Alpha MO Eigenvalues
+            1           2           3           4           5           6
+    1 -19.0022709  -1.1349174  -0.6464219  -0.4905193  -0.4114867   0.1840656
+            7           8           9          10          11          12
+    1   0.2743217   0.9080523   1.0041781   1.0184152   1.0221485   1.2006325
+           13          14          15          16          17          18
+    1   1.3108807   1.8509330   1.8637548   1.9022857   2.4229427   2.7286377
+           19
+    1   3.6816129
+ SCF time:   CPU 1.13s  wall 1.00s 
+ SCF   energy in the final basis set =      -76.3910135493
+ Total energy in the final basis set =      -76.3910135493
+ Importing sGDML predicted Forces of the SCF energy and converting them to gradient 
+ Gradient of SCF Energy
+            1           2           3
+    1   0.0233060  -0.0229929  -0.0003131
+    2   0.0056094  -0.0032892  -0.0023203
+    3  -0.0077405   0.0076847   0.0000558
+ Max gradient component =       2.331E-02
+ RMS gradient           =       1.173E-02
+ Gradient time:  CPU 0.19 s  wall 0.19 s
+ Time for this dynamics step: 1.3 s (CPU) 1.3 s (wall)
+
+TIME STEP #10 (t = 450.000 a.u. = 10.88498 fs)
+--------------------------------------
+ Instantaneous Temperature = 147.7 K
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      O      -3.3773834804     0.9432899886     0.0112567686
+    2      H      -2.4807194691     1.0422180660    -0.3276685790
+    3      H      -3.6814986954     1.8441088868     0.1490164242
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =           9.14763143 hartrees
+ There are        5 alpha and        5 beta electrons
+
+                       Distance Matrix (Angstroms)
+             O (  1)   H (  2)
+   H (  2)  0.963672
+   H (  3)  0.960697  1.520568
+
+ Applying Cartesian multipole field
+    Component          Value
+    ---------          -----
+     (2,0,0)        1.00000E-11
+     (0,2,0)        2.00000E-11
+     (0,0,2)       -3.00000E-10
+ Nucleus-field energy     =     0.0000000047 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 10.000000 electrons
+ SCF convergence criterion is 10**(-8)
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:  wB97 + LR-HF      Correlation:  wB97
+ Using SG-2 standard quadrature grid
+ A restricted SCF calculation will be
+ performed using DIIS, GDM
+ SCF converges when RMS gradient is below 1.0e-08
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1     -76.3080560240      1.62e-01  
+    2     -76.3384918515      3.89e-02  
+    3     -76.3605396353      3.21e-02  
+    4     -76.3914229100      1.55e-03  
+    5     -76.3915102168      3.28e-04  
+    6     -76.3915160588      3.85e-05  
+    7     -76.3915161883      6.44e-06  
+    8     -76.3915161948      1.23e-06  
+    9     -76.3915161950      1.12e-07  
+   10     -76.3915161950      1.09e-08  
+   11     -76.3915161950      1.88e-09  
+   12     -76.3915161950      1.95e-10  Done DIIS. Switching to GDM
+ ---------------------------------------
+  Cycle       Energy        RMS Gradient
+ ---------------------------------------
+    1     -76.3915161950      8.95e-10  Convergence criterion met
+ ---------------------------------------
+ DFT Correlation    Energy =  -0.32874766317550
+ DFT Exchange       Energy =  -6.95439248721465
+ HF Exchange        Energy =  -2.04219636096695
+ Kinetic            Energy =   0.00000000000000
+ Nuclear Attraction Energy =   0.00000000000000
+ One-Electron       Energy = -122.99055543106984
+ Total Coulomb      Energy =  46.77674431298939
+ Final Alpha MO Eigenvalues
+            1           2           3           4           5           6
+    1 -19.0042213  -1.1312737  -0.6415519  -0.4909543  -0.4108466   0.1813719
+            7           8           9          10          11          12
+    1   0.2706761   0.9019644   0.9962624   1.0176054   1.0221364   1.1974642
+           13          14          15          16          17          18
+    1   1.3115549   1.8512236   1.8665852   1.9030952   2.4120454   2.7106859
+           19
+    1   3.6756783
+ SCF time:   CPU 1.16s  wall 1.00s 
+ SCF   energy in the final basis set =      -76.3915161950
+ Total energy in the final basis set =      -76.3915161950
+ Importing sGDML predicted Forces of the SCF energy and converting them to gradient 
+ Gradient of SCF Energy
+            1           2           3
+    1   0.0004262  -0.0013569   0.0009307
+    2   0.0053287  -0.0007297  -0.0045990
+    3  -0.0000004   0.0004606  -0.0004603
+ Max gradient component =       5.329E-03
+ RMS gradient           =       2.436E-03
+ Gradient time:  CPU 0.19 s  wall 0.19 s
+ Time for this dynamics step: 1.4 s (CPU) 1.4 s (wall)
+
+=============== TIME STEPS COMPLETED ==================
+
+Step-to-Step energy fluctuations, |E(n) - E(n-1)|
+Mean: 1.103e-05   Max: 1.269e-04   RMS: 8.012e-05
+Overall energy fluctuations, |E(n) - E(0)|
+Mean: 7.309e-05   Max: 1.381e-04   RMS: 5.478e-05   RMS(dE)/RMS(dV): 1.944e-01
+Kinetic energy fluctuations, |T(n) - V(0)|
+Mean: -3.084e-04   Max: 7.339e-04   RMS: 2.303e-04
+Potential energy fluctuations, |V(n) - V(0)|
+Mean: 3.815e-04   Max: 8.720e-04   RMS: 2.818e-04
+
+
+ Total job time:  14.76s(wall), 14.72s(cpu) 
+ Wed Jan 11 17:03:29 2023
+
+        *************************************************************
+        *                                                           *
+        *  Thank you very much for using Q-Chem.  Have a nice day.  *
+        *                                                           *
+        *************************************************************
+
+
