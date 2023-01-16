@@ -1,10 +1,38 @@
 #!/bin/bash
 
-#this script calls sgdml from a bash interpreter to be able to do the 
-#source environment file setup_anaconda_spike.sh  
+###################################################################################
+#                                                                                 #
+# Author: Estefania Rossich Molina                                                #
+# Jan 2023                                                                        #
+#                                                                                 #
+# This bash interpreter allows the execution of sGDML (in Python) along with      #
+# the execution of QChem (in C and fortran)                                       #
+#                                                                                 #
+#                                                                                 #
+###################################################################################
 
-source /usr/people/tamars/fanirm/anaconda_spike/setup_anaconda_spike.sh
+source /usr/people/tamars/fanirm/anaconda_spike/setup_anaconda_spike.sh #Python environment needed for sGDML
+source /home/SCR/setup/qcsetup_6.0.sh                                   #Qchem path in Spike
 
-python  /home/scr/fanirm/h20_dyns/force_query.py #executing the force calculation using a trained model 
+HOME_DIR=`pwd`
 
-echo -e "\nForce has been calculated using sGDML"
+QCIN=$1 #name of the input file needs to be given by the keyboard 
+TESTF=$1.xyz #system variable that will be exported. It contains the geom of the molecule to predict forces using a trained model on sGDML
+
+if [ -z "$QCIN" ]; then
+    echo "please enter QChem input name (without its extension .in)"
+#      read -p "Type qchem input name : " QCIN
+        exit
+        fi
+
+#Running QChem dynamics 
+qchem $QCIN.in $QCIN.out
+
+#Read coords and Energy from QChem output to a file.xyz (not extended) to predict its forces.
+python  $HOME_DIR/xyz_maker.py $1.out $1.xyz  
+
+export QCIN 
+export TESTF  #"test file name" for sGDML testing
+python  $HOME_DIR/force_query.py #executing the force calculation using a trained model 
+
+#echo -e "\nPredicted sGDML Forces"
